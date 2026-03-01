@@ -1,0 +1,6 @@
+/*
+ * Main CSS entry point
+ * Imports Tailwind and custom theme variables
+ */
+@import "tailwindcss";
+@import "./styles/global.css";

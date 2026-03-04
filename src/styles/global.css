@@ -1,11 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 /**
  * Global styles - minimal
  */
+:root {
+  --color-bg: #F0F2F5;
+  --color-text: #180AC9;
+  --font-heading: 'Lora';
+  --font-body: 'Jost', sans-serif;
+}
+
 body {
-  font-family: 'Merriweather', serif;
-  color: #1507A8;
+  font-family: var(--font-body);
+  color: var(--color-text);
   line-height: 1.6;
-  background-color: #F7F5F1;
+  background-color: var(--color-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
 }

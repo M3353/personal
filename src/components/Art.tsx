@@ -20,7 +20,7 @@ export default function Art({ category }: ArtProps) {
   return (
     <PageWrapper>
       <h1 className="text-2xl font-bold mb-8">{TITLES[category]}</h1>
-      <div className="space-y-8">
+      <div className="space-y-2">
         {filtered.map((art) => (
           <div key={art.id} className="border-b border-gray-200 pb-6">
             <img

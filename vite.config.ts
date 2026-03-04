@@ -6,5 +6,4 @@ import tailwindcss from '@tailwindcss/vite'
 // Base path set for GitHub Pages deployment
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/personal/',
 })
